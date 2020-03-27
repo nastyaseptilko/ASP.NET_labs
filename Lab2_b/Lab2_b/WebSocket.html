@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WebSocket API</title>
+    <script type="text/javascript">
+        var ws;
+        function exe_start() {
+            if (ws == null) {
+                ws = new WebSocket('ws://172.16.193.234:45212/yyy.websocket');
+                ws.onopen = function () { ws.send('Connecting') }
+                ws.onclose = function (s) { console.log('onclose' + s); }
+                ws.onmessage = function (evt) { ta.innerHTML += '\n' + evt.data; }
+                bstart.disabled = true;
+                bstop.disabled = false;
+            }
+        }
+
+        function exe_stop() {
+            ws.close(3001, ' stopapplication');
+            ws = null;
+            bstart.disabled = false;
+            bstop.disabled = true;
+        }
+    </script>
+</head>
+<body>
+    <h1 style="width:800px; float:left">Web Sockets</h1>
+    <span>Web sockets поддерживается?</span> 
+    <span id="support"></span><br />
+    <div>
+        <input type="button" value="Start" id="bstart" onclick="exe_start()" style="width:150px; background:pink" />
+        <input type="button" value="Stop" id="bstop" onclick="exe_stop()" style="width:150px; background:pink"/>
+    </div>
+    <div>
+        <textarea id="ta" rows="20" cols="25" style="text-align:center" readonly>
+        </textarea>
+    </div>
+</body>
+</html>
