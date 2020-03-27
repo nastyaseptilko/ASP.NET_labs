@@ -1,0 +1,75 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    <style>
+        #buttonAdd {
+            height: 30px;
+            width: 130px;
+            background: #fcd1eb;
+            border-radius: 20px;
+        }
+        #buttonCancel {
+            height: 30px;
+            width: 130px;
+            background: #c9ebef;
+            border-radius: 20px;
+        }
+        input {
+            height: 35px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .formsAdd {
+            border: 1.5px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            width: 21%;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="formsAdd">
+        <h3>Добавление нового пользователя:</h3>
+        <div>
+            <input type="text" name="lastname" placeholder=" Inter your LastName" value="@Model.LastName"/>
+        </div>
+        <div>
+            <input type="text" name="phone" placeholder=" Inter your Phone" value="@Model.Phone"/>
+        </div>
+        <br/>
+        <div>
+            <button id="buttonAdd" onclick="addPerson()">Add</button>
+            <button id="buttonCancel" onclick="window.location.href='/Dict'">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        function addPerson() {
+            fetch('http://172.16.193.234:45212/dict/addsave', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    lastName: document.getElementsByName("lastname")[0].value,
+                    phone: document.getElementsByName("phone")[0].value
+                })
+            }).then(async response => {
+                if (response.status === 200) {
+                    window.location.href = '/Dict';
+                } else {
+                    alert(`Error ${response.status} - ${await response.text()}`);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
