@@ -1,0 +1,30 @@
+<Advertisements>
+  <Ad>
+    <ImageUrl>../Images/Banners/img.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Banner 1</AlternateText>
+    <Impression>25</Impression>
+    <Keyword>Group1</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>../Images/Banners/4.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Banner 2</AlternateText>
+    <Impression>50</Impression>
+    <Keyword>Group1</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>../Images/Banners/1.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Banner 3</AlternateText>
+    <Impression>5</Impression>
+    <Keyword>Group2</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>../Images/Banners/3.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Banner 4</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>Group2</Keyword>
+  </Ad>
+</Advertisements>
