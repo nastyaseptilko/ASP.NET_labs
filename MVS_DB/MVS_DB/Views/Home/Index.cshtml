@@ -1,0 +1,35 @@
+﻿
+@model IEnumerable<MVS_DB.Models.Person>
+@{
+    ViewBag.Title = "Все пользователи";
+}
+<a asp-action="Create" class="table">Добавить пользователя</a>
+<style>
+    .table{
+        font-size: 1.7rem;
+    }
+
+</style>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.LastName</td>
+            <td>
+                <a asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">Подробнее</a> |
+                <a asp-action="Edit" asp-controller="Home" asp-route-id="@item.Id">Изменить</a> |
+                <a asp-action="Delete" asp-controller="Home" asp-route-id="@item.Id">Удалить</a>
+            </td>
+        </tr>
+    }
+</table>
+<script>
+        function updatePerson(id, lastname, phone) {
+            window.location.href = `/Home/update?id=${id}&lastName=${lastname}&phone=${phone}`;
+        }
+
+        function deletePerson(id) {
+            window.location.href = `/Home/deletesave?personId=${id}`;
+        }
+</script>

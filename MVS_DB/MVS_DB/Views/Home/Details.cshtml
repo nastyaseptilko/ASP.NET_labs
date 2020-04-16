@@ -1,0 +1,15 @@
+﻿
+@model MVS_DB.Models.Person
+@{
+    ViewBag.Title = Model.LastName;
+}
+<h2>Пользователь @Model.LastName</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.Id</dd>
+
+        <dt>Телефон</dt>
+        <dd>@Model.Phone</dd>
+    </dl>
+</div>

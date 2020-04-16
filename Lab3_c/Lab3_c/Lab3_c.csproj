@@ -67,7 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Rotator\AddRotator.xml" />
+    <Content Include="Lab3_d.aspx" />
+    <Content Include="Rotator\AddRotator.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="FFF.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +81,13 @@
     </Compile>
     <Compile Include="FFF.aspx.designer.cs">
       <DependentUpon>FFF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3_d.aspx.cs">
+      <DependentUpon>Lab3_d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lab3_d.aspx.designer.cs">
+      <DependentUpon>Lab3_d.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
