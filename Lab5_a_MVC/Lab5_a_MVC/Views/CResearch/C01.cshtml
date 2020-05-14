@@ -1,0 +1,39 @@
+﻿@using System.Collections.Specialized
+@{
+    ViewBag.Title = "C01";
+    HttpRequestBase rq = ViewBag.Request;
+}
+
+<h2>C01</h2>
+
+<h3>Method: @rq.HttpMethod</h3>
+<h3>Uri: @rq.Url</h3>
+<h3>Query-params:</h3>
+<p>
+    @for (int i = 0; i < rq.QueryString.Count; i++)
+    {
+        <br /> @rq.QueryString.GetKey(i)
+        <span> = </span>
+        @rq.QueryString.Get(rq.QueryString.GetKey(i))
+    }
+</p>
+<h3>Headers:</h3>
+<p>
+    @for (int i = 0; i < rq.Headers.Count; i++)
+    {
+        <br /> @rq.Headers.GetKey(i)
+        <span> = </span>
+        @rq.Headers.Get(rq.Headers.GetKey(i))
+    }
+</p>
+@if (rq.HttpMethod.Equals("POST"))
+{
+    <h3>Body:</h3>
+    <p>
+        @using (var reader = new StreamReader(rq.InputStream))
+        {
+            var body = reader.ReadToEnd();
+            @body
+        }
+    </p>
+}

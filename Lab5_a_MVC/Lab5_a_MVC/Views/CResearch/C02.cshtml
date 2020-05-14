@@ -1,0 +1,27 @@
+﻿@using System.Collections.Specialized
+@{
+    ViewBag.Title = "C02";
+    HttpResponseBase rs = ViewBag.Response;
+}
+
+<h2>C02</h2>
+
+<h3>Status: @rs.Status</h3>
+<h3>Headers:</h3>
+<p>
+    @for (int i = 0; i < rs.Headers.Count; i++)
+    {
+        <br /> @rs.Headers.GetKey(i)
+        <span> = </span>
+        @rs.Headers.Get(rs.Headers.GetKey(i))
+    }
+</p>
+<h3>Body:</h3>
+<p>
+
+    @*@using (var reader = new StreamReader(rs.OutputStream))
+        {
+            var body = reader.ReadToEnd();
+            @body
+        }*@
+</p>
