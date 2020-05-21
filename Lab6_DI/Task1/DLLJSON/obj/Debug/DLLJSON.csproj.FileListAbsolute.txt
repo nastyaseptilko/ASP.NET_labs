@@ -1,0 +1,6 @@
+D:\Учёба\3 curs\2 сем\asp.NET\Lab6\DLLJSON\bin\Debug\DLLJSON.dll
+D:\Учёба\3 curs\2 сем\asp.NET\Lab6\DLLJSON\bin\Debug\DLLJSON.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\Lab6\DLLJSON\obj\Debug\DLLJSON.csprojAssemblyReference.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab6\DLLJSON\obj\Debug\DLLJSON.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab6\DLLJSON\obj\Debug\DLLJSON.dll
+D:\Учёба\3 curs\2 сем\asp.NET\Lab6\DLLJSON\obj\Debug\DLLJSON.pdb

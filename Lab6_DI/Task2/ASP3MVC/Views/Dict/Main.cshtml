@@ -1,0 +1,20 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Layout</title>
+</head>
+<body>
+    @if (IsSectionDefined("head"))
+    {
+        @RenderSection("head", false)
+        
+    }
+    @RenderBody()
+    @if (IsSectionDefined("foot"))
+    {
+        @RenderSection("foot", false)
+    }
+</body>
+</html>

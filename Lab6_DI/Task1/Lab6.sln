@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6", "Lab6\Lab6.csproj", "{6A8E534B-059E-4998-A4DC-1023865A00CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLJSON", "DLLJSON\DLLJSON.csproj", "{8C8666A9-696F-4924-8342-227CCA50D90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A8E534B-059E-4998-A4DC-1023865A00CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8E534B-059E-4998-A4DC-1023865A00CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8E534B-059E-4998-A4DC-1023865A00CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8E534B-059E-4998-A4DC-1023865A00CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8666A9-696F-4924-8342-227CCA50D90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8666A9-696F-4924-8342-227CCA50D90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8666A9-696F-4924-8342-227CCA50D90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8666A9-696F-4924-8342-227CCA50D90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22FC8FA5-E1E0-4EED-845E-9836EA9D21DB}
+	EndGlobalSection
+EndGlobal

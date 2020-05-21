@@ -9,7 +9,7 @@ namespace Lab_3_MVC.Models
 {
     public class PersonRepository
     {
-        private const string PERSON_JSON_PATH = @"D:\Apps\Septilko\Lab_3_MVC\Models\phones.json";
+        private const string PERSON_JSON_PATH = @"D:\\Учёба\\3 curs\\2 сем\\asp.NET\\GIT\\Lab_3_MVC\\Lab_3_MVC\\Models\\phones.json";
         
         public List<Person> GetAll()
         {

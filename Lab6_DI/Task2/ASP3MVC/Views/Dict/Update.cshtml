@@ -1,0 +1,19 @@
+﻿@using ASP3MVC.Helpers;
+@{
+    Layout = "~/Views/Dict/Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Update</title>
+</head>
+<body>
+    <div>
+        <h3>Форма обновления объекта</h3>
+        @Html.EditForm(new string[]{ @ViewBag.Object.Id.ToString(),@ViewBag.Object.FIO, @ViewBag.Object.Telephone })
+    </div>
+</body>
+</html>

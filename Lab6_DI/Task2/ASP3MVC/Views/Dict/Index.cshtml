@@ -1,0 +1,56 @@
+﻿@using DLLEntity
+@{
+    Layout = "~/Views/Dict/Main.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        #buttonAdd {
+            height: 50px;
+            width: 300px;
+            background: #b7efa0;
+            border-radius: 20px;
+        }
+
+        .forms {
+            border: 1px solid gray;
+            width: 27%;
+        }
+        table td{
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Телефонный справочник:</h2>
+    </header>
+    <div>
+
+        <table>
+            <tr>
+                <td><p>ФИО</p></td>
+                <td><p>Телефон</p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            @foreach (Phone b in ViewBag.Objects)
+            {
+                @Html.Action("StringDictionary", "Dict", b);
+            }
+        </table>
+    </div>
+    <button id="buttonAdd"><a href="/Dict/Add">Добавить</a></button>
+
+    <hr />
+    <footer>
+        <p style="text-align:right">Septilko A.A. Lab6</p>
+    </footer>
+</body>
+</html>

@@ -15,8 +15,8 @@ namespace Lab_3_MVC
 
             routes.MapRoute(
                 name: "Dict",
-               url: "Lab_3_MVC/{controller}/{action}",
-                defaults: new {controller = "DictController", action = "Index"}
+               url: "{controller}/{action}",
+                defaults: new {controller = "Dict", action = "Index"}
             );
             
            
