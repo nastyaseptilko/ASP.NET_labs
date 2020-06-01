@@ -1,0 +1,16 @@
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\bin\Debug\netcoreapp2.1\Lab7_WebAPI.deps.json
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\bin\Debug\netcoreapp2.1\Lab7_WebAPI.runtimeconfig.json
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\bin\Debug\netcoreapp2.1\Lab7_WebAPI.runtimeconfig.dev.json
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\bin\Debug\netcoreapp2.1\Lab7_WebAPI.dll
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\bin\Debug\netcoreapp2.1\Lab7_WebAPI.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.csprojAssemblyReference.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.RazorAssemblyInfo.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.RazorAssemblyInfo.cs
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.AssemblyInfoInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.AssemblyInfo.cs
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.RazorTargetAssemblyInfo.cache
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.dll
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\bin\Debug\netcoreapp2.1\Lab7_WebAPI.Views.dll
+D:\Учёба\3 curs\2 сем\asp.NET\Lab7_WebAPI\Lab7_WebAPI\obj\Debug\netcoreapp2.1\Lab7_WebAPI.csproj.CopyComplete
