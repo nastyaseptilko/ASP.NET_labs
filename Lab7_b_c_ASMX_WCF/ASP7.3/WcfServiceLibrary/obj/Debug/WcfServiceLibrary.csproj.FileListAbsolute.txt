@@ -1,0 +1,23 @@
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll.config
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.pdb
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.dll
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.xml
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csproj.CoreCompileInputs.cache
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csproj.CopyComplete
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.dll
+E:\Program Files\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll.config
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.dll
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.xml
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csprojAssemblyReference.cache
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csproj.CopyComplete
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.dll
+D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.3\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.pdb
