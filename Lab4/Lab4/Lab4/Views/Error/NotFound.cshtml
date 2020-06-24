@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Not_found</title>
+</head>
+<body>
+    <div>
+        <h1>Error</h1>
+        <div>
+            @Request.HttpMethod: @Request.Params.Get("aspxerrorpath")
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    <div>
+        <form action="/dict/addsave" method="post">
+            <div>
+                <input type="text" name="lastname" placeholder="LastName" value="@Model.LastName" />
+            </div>
+            <div>
+                <input type="text" name="phone" placeholder="Phone" value="@Model.Phone" />
+            </div>
+            <div>
+                <button type="submit">Add</button>
+            </div>
+        </form>
+        <div>
+            <button onclick="window.location.href='/Dict'">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

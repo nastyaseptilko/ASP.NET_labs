@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+
+        @foreach (var person in Model)
+        {
+            <div>
+                <h1>@person.LastName</h1>
+                <span>@person.Phone</span>
+                <div>
+                    <button onclick="updatePerson('@person.Id', '@person.LastName', '@person.Phone')">Update</button>
+                    <button onclick="deletePerson('@person.Id')">Delete</button>
+                </div>
+            </div>
+        }
+
+    </div>
+    <div style="margin-top:3rem;">
+        <button onclick="window.location.href='/dict/add'">Add New</button>
+    </div>
+
+    <script>
+        function updatePerson(id, lastname, phone) {
+            window.location.href = `/dict/update?id=${id}&lastName=${lastname}&phone=${phone}`;
+        }
+
+        function deletePerson(id) {
+            window.location.href = `/dict/deletesave?personId=${id}`;
+        }
+    </script>
+</body>
+</html>

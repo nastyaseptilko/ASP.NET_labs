@@ -12602,11 +12602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учёба\\3 curs\\2 сем\\asp.NET\\MVS_DB\\MVS_DB\\MVS_DB.csproj",
+      "projectUniqueName": "D:\\Учёба\\3 curs\\2 сем\\asp.NET\\GIT\\MVC_DB\\MVS_DB\\MVS_DB.csproj",
       "projectName": "MVS_DB",
-      "projectPath": "D:\\Учёба\\3 curs\\2 сем\\asp.NET\\MVS_DB\\MVS_DB\\MVS_DB.csproj",
+      "projectPath": "D:\\Учёба\\3 curs\\2 сем\\asp.NET\\GIT\\MVC_DB\\MVS_DB\\MVS_DB.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Учёба\\3 curs\\2 сем\\asp.NET\\MVS_DB\\MVS_DB\\obj\\",
+      "outputPath": "D:\\Учёба\\3 curs\\2 сем\\asp.NET\\GIT\\MVC_DB\\MVS_DB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

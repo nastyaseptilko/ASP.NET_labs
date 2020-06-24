@@ -63,9 +63,9 @@ namespace Lab5_b_MVC.Controllers
             public void OnException(ExceptionContext filterContext)
             {
                 filterContext.HttpContext.Response.Write("<h2>F5:OnException</h2>");
-                ViewResult viewResult = new ViewResult();
-                viewResult.ViewName = "ERROR";
-                filterContext.Result = viewResult;
+               // ViewResult viewResult = new ViewResult();
+               // viewResult.ViewName = "ERROR";
+               // filterContext.Result = viewResult;
                 filterContext.ExceptionHandled = true;
             }
         }
