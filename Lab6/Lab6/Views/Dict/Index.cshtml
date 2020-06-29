@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Header {
+    <div>
+        <h4 style="color:gray">Index page header</h4>
+    </div>
+}
+
+
+    <div>
+        <h2>Телефонный справочник:</h2>
+
+        <div >
+            @foreach (var person in Model.GetAll())
+            {
+                @Html.Partial("PhoneItem", (object)person);
+            }
+        </div>
+
+    </div>
+    <div style="margin-top:3rem;">
+        <button id="buttonAdd" onclick="window.location.href='/dict/add'">Add new person</button>
+    </div>
+
+    <script>
+        function updatePerson(id, lastname, phone) {
+            window.location.href = `/dict/update?id=${id}&lastName=${lastname}&phone=${phone}`;
+        }
+
+        function deletePerson(id) {
+            window.location.href = `/dict/deletesave?personId=${id}`;
+        }
+    </script>
+    @section Footer {
+        <div>
+            <h4 style="color:gray">Index page footer</h4>
+        </div>
+    }

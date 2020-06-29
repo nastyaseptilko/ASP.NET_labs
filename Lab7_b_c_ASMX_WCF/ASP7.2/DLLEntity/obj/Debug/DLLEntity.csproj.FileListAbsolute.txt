@@ -22,3 +22,15 @@ E:\Program Files\ASP\ASP7.2\DLLEntity\bin\Debug\EntityFramework.SqlServer.dll
 E:\Program Files\ASP\ASP7.2\DLLEntity\bin\Debug\EntityFramework.xml
 E:\Program Files\ASP\ASP7.2\DLLEntity\bin\Debug\EntityFramework.SqlServer.xml
 E:\Program Files\ASP\ASP7.2\DLLEntity\obj\Debug\DLLEntity.csproj.CopyComplete
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\DLLEntity.dll.config
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\DLLEntity.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\DLLEntity.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\EntityFramework.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\EntityFramework.xml
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\obj\Debug\DLLEntity.csprojAssemblyReference.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\obj\Debug\DLLEntity.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\obj\Debug\DLLEntity.csproj.CopyComplete
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\obj\Debug\DLLEntity.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\DLLEntity\obj\Debug\DLLEntity.pdb

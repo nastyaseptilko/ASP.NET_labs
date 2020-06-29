@@ -6,10 +6,10 @@
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         </p>
-        <asp:Button ID="Get" Width="100" runat="server" OnClick="Button1_Click" Text="Get" />
-        <asp:Button ID="Post" Width="100" runat="server" OnClick="Post_Click" Text="Post"/>
-        <asp:Button ID="Put" Width="100" runat="server" OnClick="Put_Click" Text="Put" />
-        <asp:Button ID="ERROR" Width="100" runat="server" OnClick="ERROR_Click" Text="Error" />
+        <asp:Button ID="Get" Width="100" BackColor="#f9bdec" runat="server" OnClick="Button1_Click" Text="Get" />
+        <asp:Button ID="Post" Width="100" BackColor="#b4e4f7" runat="server" OnClick="Post_Click" Text="Post"/>
+        <asp:Button ID="Put" Width="100" BackColor="#fffb93" runat="server" OnClick="Put_Click" Text="Put" />
+        <asp:Button ID="ERROR" Width="100" BackColor="#ff9999" runat="server" OnClick="ERROR_Click" Text="Error" />
     </div>
     &nbsp;
 </asp:Content>

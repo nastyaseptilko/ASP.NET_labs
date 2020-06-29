@@ -1,0 +1,27 @@
+﻿@using Lab6.Helper;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Header {
+    <div>
+        <h4 style="color:gray">Update page header</h4>
+    </div>
+}
+
+<div>
+    <div>
+
+        @Html.UpdateForm((object)Model)
+
+        <div>
+            <button onclick="window.location.href='/Dict'">Cancel</button>
+        </div>
+    </div>
+</div>
+
+@section Footer {
+    <div>
+        <h4 style="color:gray">Update page footer</h4>
+    </div>
+}

@@ -1,0 +1,10 @@
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6_DI\Task1\AbstractPhoneDataProvider\bin\Debug\AbstractPhoneDataProvider.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6_DI\Task1\AbstractPhoneDataProvider\bin\Debug\AbstractPhoneDataProvider.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6_DI\Task1\AbstractPhoneDataProvider\obj\Debug\AbstractPhoneDataProvider.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6_DI\Task1\AbstractPhoneDataProvider\obj\Debug\AbstractPhoneDataProvider.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6_DI\Task1\AbstractPhoneDataProvider\obj\Debug\AbstractPhoneDataProvider.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6\AbstractPhoneDataProvider\bin\Debug\AbstractPhoneDataProvider.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6\AbstractPhoneDataProvider\bin\Debug\AbstractPhoneDataProvider.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6\AbstractPhoneDataProvider\obj\Debug\AbstractPhoneDataProvider.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6\AbstractPhoneDataProvider\obj\Debug\AbstractPhoneDataProvider.dll
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab6\AbstractPhoneDataProvider\obj\Debug\AbstractPhoneDataProvider.pdb

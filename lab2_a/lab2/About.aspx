@@ -6,8 +6,9 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </p>
-    <p>
-        <button ID="Multi"  OnClick="SendAjaxPOST()" value="Mult">Mult</button>
+
+    <p >
+        <button ID="Multi"  OnClick="SendAjaxPOST()"  value="Mult" style="background-color: #FF99FF; font-family: 'Courier New', Courier, monospace; font-size: medium">Сложить</button>
     </p>
 
     <script>
@@ -26,7 +27,7 @@
                     }
                 }
 
-                xmlHttp.open("POST", "http://localhost:45212/Lab2_a/multi.gso", true);
+                xmlHttp.open("POST", "http://localhost:50722/Lab2_a/multi.gso", true);
                 xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
                 xmlHttp.send('ParmA=' + a + '&ParmB=' + b);
                 

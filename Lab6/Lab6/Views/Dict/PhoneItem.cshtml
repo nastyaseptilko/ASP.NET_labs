@@ -1,0 +1,10 @@
+﻿<div class="f">
+    <p style="font-size:1.2rem"><strong>Фамилия:</strong> @Model.LastName</p>
+    <p style="font-size:1.2rem"><strong>Телефон:</strong> @Model.Phone</p>
+    <p></p>
+    <div>
+        <button id="buttonUpdate" onclick="updatePerson('@Model.Id', '@Model.LastName', '@Model.Phone')">Update</button>
+        <button id="buttonDelete" onclick="deletePerson('@Model.Id')">Delete</button>
+        <p></p>
+    </div>
+</div>

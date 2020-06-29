@@ -17,7 +17,7 @@ namespace WForms
         {
             string data = String.Format("ParmA={0}&ParmB={1}", textBox1.Text, textBox2.Text);
             byte[] databyte = Encoding.UTF8.GetBytes(data);
-            HttpWebRequest rq = (HttpWebRequest)HttpWebRequest.Create("http://localhost:45212/Lab2_a/multi.gso");
+            HttpWebRequest rq = (HttpWebRequest)HttpWebRequest.Create("http://localhost:50722/Lab2_a/multi.gso");
             rq.ContentType = "application/x-www-form-urlencoded";
             rq.ContentLength = databyte.Length;
             rq.Method = "POST";
@@ -27,6 +27,26 @@ namespace WForms
             StreamReader sr = new StreamReader(response.GetResponseStream());
             this.label1.Text = sr.ReadToEnd();
             sr.Close();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

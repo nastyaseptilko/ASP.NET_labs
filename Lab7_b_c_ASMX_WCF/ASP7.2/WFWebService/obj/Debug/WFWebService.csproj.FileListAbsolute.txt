@@ -18,3 +18,13 @@ D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.2\WFWebService\obj\Debug\WFWebSer
 D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.2\WFWebService\obj\Debug\WFWebService.csproj.CoreCompileInputs.cache
 D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.2\WFWebService\obj\Debug\WFWebService.exe
 D:\Учёба\3 curs\2 сем\asp.NET\ASP\ASP7.2\WFWebService\obj\Debug\WFWebService.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\bin\Debug\WFWebService.exe.config
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\bin\Debug\WFWebService.exe
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\bin\Debug\WFWebService.pdb
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.csprojAssemblyReference.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.Form1.resources
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.Properties.Resources.resources
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.csproj.GenerateResource.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.csproj.CoreCompileInputs.cache
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.exe
+D:\Учёба\3 curs\2 сем\asp.NET\GIT\Lab7_b_c_ASMX_WCF\ASP7.2\WFWebService\obj\Debug\WFWebService.pdb

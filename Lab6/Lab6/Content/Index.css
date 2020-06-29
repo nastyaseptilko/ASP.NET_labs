@@ -1,0 +1,32 @@
+﻿#buttonUpdate {
+    height: 30px;
+    width: 130px;
+    background: #fcd1eb;
+    border-radius: 20px;
+}
+
+#buttonDelete {
+    height: 30px;
+    width: 130px;
+    background: #fcd1eb;
+    border-radius: 20px;
+}
+
+#buttonAdd {
+    height: 50px;
+    width: 300px;
+    background: #b7efa0;
+    border-radius: 20px;
+}
+
+.f {
+    border: 1px solid gray;
+    width:20%;
+    padding:10px;
+}
+.buttonCancel {
+    height: 30px;
+    width: 130px;
+    background: #fcd1eb;
+    border-radius: 20px;
+}

@@ -1,0 +1,25 @@
+﻿@using Lab6.Helper;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Header {
+    <div>
+        <h4 style="color:gray">Add New Item page header</h4>
+    </div>
+}
+
+<div>
+
+    @Html.AddNewForm()
+
+    <div>
+        <button onclick="window.location.href='/Dict'">Cancel</button>
+    </div>
+</div>
+
+@section Footer {
+    <div>
+        <h4 style="color:gray">Add New Item page footer</h4>
+    </div>
+}
